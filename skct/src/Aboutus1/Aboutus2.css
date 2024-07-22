@@ -1,0 +1,28 @@
+.img{
+    
+    float: right;
+    width: 490px;
+    height: 290px;
+    
+}
+.para{
+    
+    margin-right: 40%;
+    
+}
+.flex{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    right: 15%;
+    width: 70%;
+    padding: 50px;
+    background-color: antiquewhite;
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,0,15);
+    border-radius:50px
+}
+.button{
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(193, 135, 94);
+  }

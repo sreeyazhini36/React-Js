@@ -1,0 +1,125 @@
+/* BlogEditor.css */
+
+.editor-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items to the top */
+    margin: 20px;
+  }
+  
+  .font-selector {
+    margin-bottom: 10px;
+  }
+  
+  .font-selector label {
+    margin-right: 10px;
+  }
+  
+  .editor {
+    width: 45%;
+    padding: 20px;
+    background-color: #ecf4ff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .editor h2 {
+    color: #101112;
+  }
+  
+  .editor textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #bcd7ff;
+    border-radius: 5px;
+    resize: none;
+  }
+  
+  .input-file {
+    margin-bottom: 10px;
+  }
+  
+  .input-file input {
+    display: none;
+  }
+  
+  .input-file label {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .input-file label:hover {
+    background-color: #2980b9;
+  }
+  
+  .image-preview img {
+    max-width: 100%;
+    margin-top: 10px;
+  }
+  
+  .button {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #27ae60;
+  }
+  
+  .preview {
+    width: 45%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .preview h2 {
+    color: #000000;
+  }
+  
+  .preview .image-preview-preview img {
+    max-width: 100%;
+    margin-top: 10px;
+  }
+  
+  .preview div {
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .post-button {
+    position: fixed;
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    right: 20px; /* Adjust the distance from the right as needed */
+  }
+  
+  .post-button button {
+    border-radius: 15px; /* Adjust the border-radius for curved edges */
+    padding: 15px 30px; /* Adjust padding for a larger size */
+    font-size: 18px; /* Adjust font size as needed */
+    background-color: #5b9bc6; /* Green color, you can change this to your preferred color */
+    color: rgb(11, 10, 10);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .post-button button:hover {
+    background-color: #e7efe8; /* Darker green color on hover, adjust as needed */
+  }
+  
+
+

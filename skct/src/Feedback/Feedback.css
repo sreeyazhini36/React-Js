@@ -1,0 +1,12 @@
+
+.flex{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    right: 15%;
+    width: 70%;
+    padding: 50px;
+    background-color: rgb(138, 102, 156);
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,0,15);
+    border-radius:50px
+}
